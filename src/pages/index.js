@@ -32,7 +32,7 @@ class IndexPage extends React.Component {
         <SEO title="El Faro" keywords={[`el faro`, `donate`]} />
 
         <div className="text-center">
-          <h2 className="inline-block my-8 p-3">Donate to El Faro</h2>
+          <h1 className="mb-4">Donate to El Faro</h1>
 
           <p>Use this online form to donate to El Faro orphanage.</p>
           <br />
