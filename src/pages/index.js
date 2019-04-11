@@ -16,7 +16,6 @@ class IndexPage extends React.Component {
   }
   async onToken(token) {
     const json = await axios.post('/.netlify/functions/donate', {
-      amount: 500,
       token,
       idempotency_key: uuid()
     })
