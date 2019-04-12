@@ -35,11 +35,16 @@ class IndexPage extends React.Component {
 
           <p>Use this online form to donate to El Faro orphanage.</p>
           <br />
-          <StripeCheckout
-            description="Donate to El Faro"
-            stripeKey={process.env.GATSBY_STRIPE_PUBLISHABLE_KEY}
-            token={this.onToken}
-          />
+          {this.amount > 0 ? (
+            <StripeCheckout
+              description="Donate to El Faro"
+              stripeKey={process.env.GATSBY_STRIPE_PUBLISHABLE_KEY}
+              token={this.onToken}
+              amount={this.amount}
+            />
+          ) : (
+            ''
+          )}
           <p>{this.state.thanks ? this.state.thanks : ''}</p>
         </div>
       </Layout>
