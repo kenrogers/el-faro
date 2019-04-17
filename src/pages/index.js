@@ -33,8 +33,8 @@ class IndexPage extends React.Component {
         <div className="text-center">
           <h1 className="mb-4">Donate to El Faro</h1>
 
-          <p>Use this online form to donate to El Faro orphanage.</p>
-          <br />
+          <p>Future home of the donation page for El Faro Orphanage.</p>
+          {/* <br />
           {this.amount > 0 ? (
             <StripeCheckout
               description="Donate to El Faro"
@@ -45,7 +45,7 @@ class IndexPage extends React.Component {
           ) : (
             ''
           )}
-          <p>{this.state.thanks ? this.state.thanks : ''}</p>
+          <p>{this.state.thanks ? this.state.thanks : ''}</p> */}
         </div>
       </Layout>
     )
