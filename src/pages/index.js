@@ -4,8 +4,9 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import orphanage1 from '../images/orphanage1.jpg'
-import orphanage2 from '../images/orphanage2.JPG'
-import orphanage3 from '../images/orphanage3.JPG'
+import orphanage2 from '../images/orphanage2.jpg'
+import orphanage3 from '../images/orphanage3.jpg'
+import orphanage4 from '../images/orphanage4.jpg'
 
 class IndexPage extends React.Component {
   render() {
@@ -62,11 +63,11 @@ class IndexPage extends React.Component {
               src={orphanage3}
               alt="Palm trees, vans, and metal structures on the orphanage property."
             />
-            {/* <img
+            <img
               className="w-full self-center mb-3 shadow-md rounded"
               src={orphanage4}
               alt="Walkway and patio outside of the orphanage main building."
-            /> */}
+            />
           </div>
         </div>
       </Layout>
