@@ -4,9 +4,9 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import orphanage1 from '../images/orphanage1.jpg'
-import orphanage2 from '../images/orphanage2.jpg'
-import orphanage3 from '../images/orphanage3.jpg'
-import orphanage4 from '../images/orphanage4.jpg'
+import orphanage2 from '../images/orphanage2.JPG'
+import orphanage3 from '../images/orphanage3.JPG'
+import orphanage4 from '../images/orphanage4.JPG'
 
 class IndexPage extends React.Component {
   render() {
